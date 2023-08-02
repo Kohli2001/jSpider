@@ -2,7 +2,7 @@ public class Program24
 {
     public static void LastArray(int[] arr)
     {
-       for(int i=(arr.length-1);i>=0;i--)
+       for(int i=(arr.length-1); i>=0;)
        {
           System.out.println("The last Element in Array:"+arr[i]);
           break;
