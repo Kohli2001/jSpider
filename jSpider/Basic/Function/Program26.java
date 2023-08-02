@@ -24,10 +24,10 @@ class Program26{
             username = sc.nextLine();
 
             System.out.println("Enter Email");
-            email = sc.nextLine();
+            email = sc.next();
 
             System.out.println("Enter Password");
-            password = sc.nextLine();
+            password = sc.next();
 
         
             System.out.println("Select Gender\n Male -M \nFemale - F");
@@ -37,9 +37,9 @@ class Program26{
             case 'p':
              System.out.println("Complete your registration");
             System.out.println("Enter Username");
-            username = sc.nextLine();
+            username = sc.next();
             System.out.println("Enter Password");
-            password = sc.nextLine();
+            password = sc.next();
             System.out.println("Enter Phone number");
             phone = sc.nextLong();
             System.out.println("Select Gender\n Male -M \nFemale - F");
@@ -60,7 +60,7 @@ class Program26{
         System.out.println("Gender: " +gender);
         System.out.println("Phone No: " +phone);
         
-
+        sc.close();
     
 
     
