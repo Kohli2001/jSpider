@@ -1,0 +1,26 @@
+
+		Java Test-2 Question Paper
+
+1. Write java program to define object for Car with below attributes
+    1. Brand name
+    2. Engine type
+    3. Fuel type
+    4. Seating capacity 
+    5. Model 
+Read the values from keyboard to create the object
+
+2. Write java program to instantiate(create) an object customer. 
+    Decide attributes yourself and read the values from keyboards 
+
+3. A student wants to enrol a course in Jspiders
+Information required for rolling to course is 
+Student name
+Degree
+Email
+Phone
+
+Students can enroll either with phone number or email I’d 
+
+4. Write a java program to print the character is  alpha ,numeric or special char.
+
+5.Write a java program to check given year is leap year or not.
