@@ -1,24 +1,27 @@
 package DemoProjects;
 
 public class LoginPage {
-	String username;
-	String password;
-	
-	
-//	SignUpPage check = new SignUpPage(username, password);
-	
-	boolean match(String username, String password) {
-			if (this.username==username && this.password ==password) {
-			
-			System.out.println("Login successfully...............");
-			return  true;
-			
-		}
-		System.out.println("Login failed due: to Inavlid username or password....Try Again!!");
-		return false;
-	}
+    String username;
+    String password;
 
+    public LoginPage(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
+
+    boolean match(SignUpPage signUpPage) {
+        if (this.username.equals(signUpPage.getUsername()) && this.password.equals(signUpPage.getPassword())) {
+            System.out.println("Login successful...........");
+            return true;
+        }
+        System.out.println("Login failed due to Invalid username or password....Try Again!!");
+        return false;
+    }
 }
 
+
+
 //=======================================Codeby@3K=========================================================================
+
+
 
