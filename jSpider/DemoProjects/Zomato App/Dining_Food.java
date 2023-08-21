@@ -1,10 +1,76 @@
 package DemoProjects;
 
+import java.util.Scanner;
+
 public class Dining_Food {
 
 }
-//Near by Restraunts classes/list 
 
+
+class Food_Reastaurant{
+	Scanner sc = new Scanner(System.in);
+	
+	void RestaurantsFood(){
+		
+		System.out.println("Do You want to Order food from This Reastaurants??\n1.Yes\n2.No");
+		int  choice = sc.nextInt();
+		if (choice==1) {
+			System.out.println("Press\n1.Veg\n2.Non-Veg");
+			int ch = sc.nextInt();
+			if (ch==1) {
+				System.out.println("************Vegeterian Categories*****************");
+				System.out.println("1.Fast Food\n2.Homies Food\n3.Pizza");
+				System.out.println("........Please Select from mention above........");
+				int select = sc.nextInt();
+				if (select==1) {
+					Menu m3 = new Menu();
+					m3.Fast_food_MenuDetails();
+					
+				}
+				else if (select==2) {
+					Menu m3 = new Menu();
+					m3.Home_Food_MenuDetails();
+				}
+				else if (select==3) {
+					Menu m3 = new Menu();
+					m3.pizza_MenuDelivery();
+					
+				}
+			}
+			else if (ch==2) {
+				System.out.println("************Non-Vegeterian Categories*****************");
+				System.out.println("1.Fast Food\n2.Homies Food\n3.Pizza");
+				System.out.println("........Please Select from mention above........");
+				int select = sc.nextInt();
+				if (select==1) {
+					Menu m3 = new Menu();
+					m3.Fast_food_MenuDetails();
+					
+				}
+				else if (select==2) {
+					Menu m3 = new Menu();
+					m3.Home_Food_MenuDetails();
+				}
+				else if (select==3) {
+					Menu m3 = new Menu();
+					m3.pizza_MenuDelivery();
+					
+				}
+					
+				}
+				
+			}
+			
+			
+//	}	
+		else if (choice==2) {
+			System.out.println("Okay Thank you!..Visit Again");
+				
+		}
+	}
+	
+}
+//Near by Restaurants classes/list 
 class UltimatePunjabi{
 	double price= 1560.00;
 	String location="BTM Layout,jp Nagar,5th Cross ,2nd Building";
@@ -17,6 +83,11 @@ class UltimatePunjabi{
 		System.out.println("Location: " +location);
 		System.out.println("Rating: " +rating);
 		System.out.println("Currentely : "+status);
+		
+		System.out.println("=============================================");
+		Food_Reastaurant f1= new Food_Reastaurant();
+		f1.RestaurantsFood();
+		
 	}
 	
 }
@@ -33,6 +104,10 @@ class LittiTwist{
 		System.out.println("Location: " +location);
 		System.out.println("Rating: " +rating);
 		System.out.println("Currentely : "+status);
+		
+		System.out.println("=============================================");
+		Food_Reastaurant f1= new Food_Reastaurant();
+		f1.RestaurantsFood();
 	}
 }
 class KhmerKitchen{
@@ -49,6 +124,10 @@ class KhmerKitchen{
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			
+			System.out.println("=============================================");
+			Food_Reastaurant f1= new Food_Reastaurant();
+			f1.RestaurantsFood();
 		}
 	
 }
@@ -64,6 +143,11 @@ class NarmalaHouse{
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			
+			System.out.println("=============================================");
+			System.out.println("Ohhhh!! Sorry Its Closed Right Now");
+//			Food_Reastaurant f1= new Food_Reastaurant();
+//			f1.RestaurantsFood();
 		}
 	
 }
@@ -83,6 +167,10 @@ class CasaPiclosa{
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			
+			System.out.println("=============================================");
+			Food_Reastaurant f1= new Food_Reastaurant();
+			f1.RestaurantsFood();
 		}
 	
 }
@@ -98,6 +186,10 @@ class EmpireRestaurant{
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			
+			System.out.println("=============================================");
+			Food_Reastaurant f1= new Food_Reastaurant();
+			f1.RestaurantsFood();
 		}
 	
 }
@@ -114,6 +206,10 @@ class TaproomByshocklate{
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			
+			System.out.println("=============================================");
+			Food_Reastaurant f1= new Food_Reastaurant();
+			f1.RestaurantsFood();
 	
 	 }
 	 
@@ -132,11 +228,15 @@ class DelightRestaurant{
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			
+			System.out.println("=============================================");
+			System.out.println("Ohhhh!! Sorry Its Closed Right Now");
 		}
 	
 	
 }
-//Top rated restrautants list 
+//Top rated restaurants list 
+
 //LE ARABIA Restaurant\n2.AB's Restaurant\n3.Spice Terrace\n4.24@43 Restaurant
 
 class  LeArabia{
@@ -152,6 +252,9 @@ class  LeArabia{
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			System.out.println("=============================================");
+			Food_Reastaurant f1= new Food_Reastaurant();
+			f1.RestaurantsFood();
 		}
 	
 }
@@ -168,6 +271,9 @@ class ABs{
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			System.out.println("=============================================");
+			Food_Reastaurant f1= new Food_Reastaurant();
+			f1.RestaurantsFood();
 		}
 }
 class SpiceTerrace{
@@ -183,7 +289,12 @@ class SpiceTerrace{
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			
+			System.out.println("=============================================");
+			Food_Reastaurant f1= new Food_Reastaurant();
+			f1.RestaurantsFood();
 		}
+	 
 }
 class Karavelli{
 	double price= 39560.00;
@@ -191,12 +302,19 @@ class Karavelli{
 	String rating=" 4.6/5 ";
 	String status="closed";
 	
+	
 	 void details() {
 			
 			System.out.println("Price per person:" +price);
 			System.out.println("Location: " +location);
 			System.out.println("Rating: " +rating);
 			System.out.println("Currentely : "+status);
+			
+			System.out.println("=============================================");
+//			Food_Reastaurant f1= new Food_Reastaurant();
+//			f1.RestaurantsFood();
+			System.out.println("Ohhhh!! Sorry Its Closed Right Now");
+			
 		}
 	
 }
