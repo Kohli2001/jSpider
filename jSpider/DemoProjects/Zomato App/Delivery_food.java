@@ -3,9 +3,6 @@ package DemoProjects;
 
 public class Delivery_food {
 	
-	
-	
-
 }
 class Pizza{
 	
@@ -41,7 +38,7 @@ class HomeFood{
 	
 	String foodName;
 	double foodPrice =123.00;
-	int    foodItem;
+	int foodItem=0;
 	
 	public HomeFood(String foodName,int foodItem ) {
 		this.foodName=foodName;
@@ -53,6 +50,8 @@ class HomeFood{
 		
 		return foodPrice*n;
 	}
+    
+   
 	
 	void disp() {
 		System.out.println("Confirmed Delivery");
@@ -60,13 +59,27 @@ class HomeFood{
 		
 		System.out.println("Food name : " +foodName);
 		System.out.println("Food Price: " +foodPrice);
-		System.out.println("Total Item added : "+foodItem);
+		System.out.println("Total Item: "+foodItem);
+		AddToCart a1 = new AddToCart();
+		a1.nextOrder();
+		totalFare(foodItem);
+//		a1.addToCart(foodItem);
 		
-	System.out.println("-------------------------------------------------");
-		System.out.println("Total Fare: " +totalPrice(foodItem));
-		System.out.println("Thank You!! Visit Again....");
+		
+		
 		
 	}
+	void totalFare(int add ) {
+		
+		System.out.println("-------------------------------------------------");
+		foodItem+=add;
+		System.out.println("Total Item added "+foodItem);
+		System.out.println("Total Fare: " +totalPrice(foodItem));
+		
+		System.out.println("Thank You!!  Visit Again....");
+			
+	}
+	
 	
 }
 class FastFood{
