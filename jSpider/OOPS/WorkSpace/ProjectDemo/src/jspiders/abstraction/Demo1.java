@@ -1,19 +1,17 @@
-package abstraction;
+package polymorphism;
 
-public interface Demo1 {
+public class Demo1 {
 	
-	void test();
-	void disp();
+	void wish() {
+		System.out.println("Hi");
+	}
 
 }
-
-class Sample1 implements Demo1{
-	
-	 public void test() {
-		System.out.println("test() method implemented in Sample1 class");
-	}
-	 public void  disp() {
-		 System.out.println("Disp() methods implemeted in Sample1");
-		 
+ class Demo2 extends Demo1 {
+	 
+	 void wish() {
+		 super.wish();
+		 System.out.println("Bye");
 	 }
+	
 }
