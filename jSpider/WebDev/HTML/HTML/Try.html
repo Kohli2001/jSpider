@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Table Example</title>
+</head>
+<body>
+    <table border="1">
+        <tbody id="table-body">
+        </tbody>
+    </table>
+
+    <script>
+        const tableBody = document.getElementById('table-body');
+
+        // Generate 1000 rows and 1000 columns
+        for (let i = 0; i < 1000; i++) {
+            const row = document.createElement('tr');
+            for (let j = 0; j < 1000; j++) {
+                const cell = document.createElement('td');
+                cell.textContent = `Row ${i + 1}, Col ${j + 1}`;
+                row.appendChild(cell);
+            }
+            tableBody.appendChild(row);
+        }
+    </script>
+</body>
+</html>

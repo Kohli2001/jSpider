@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms Tags</title>
+</head>
+<body>
+    <h1 align="center" ><u>Forms Tags</u></h1>
+
+    <a href="Assignment3.html"><li>Home</li></a>
+    <h3>Login</h3>
+
+    <form >
+
+        <label for="email">Enter the Email : </label>
+        <input type="email" placeholder="Enter Your Email">
+
+        <br><br>
+        <label for=" ">Enter Password:</label>
+        <input type="password" name="userPassword" placeholder="Enter Your password" minlength="8">
+
+        <br>
+        <button>login</button>
+
+    </form >
+
+    <hr><hr><br>
+
+    <h2>Registration Forms</h2>
+    <form action="Home.html">
+
+        <label for="name">Name*</label>
+        <input type="text" name="userName" required placeholder="Enter Your Name" minlength="3" maxlength="20">
+        <br><br>
+        <label for="DOB">DOB*</label>
+        <input type="date" name="DOB" required>
+        <br><br>
+        <label for="mobile Number">Mobile: </label>
+        <input type="tel" name="mobileNumber" id="" minlength="10" maxlength="10">
+        <br><br>
+        <label for="backlogs">No of Backlogs*</label>
+        <input type="number" min="0" max="5" required> <br><br>
+        <label for="email">Email:*</label>
+        <input type="email" required>
+        <br><br>
+        <label for="Gender">Gender : </label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="">
+
+        <br><br>
+        <label for="file">Upload Resume:</label>
+        <input type="file" name="file" id="">
+        <br><br>
+        <label for="branch">Select Branch:</label>
+        <select name="branchName" >
+            <option>Select</option>
+            <option>CSE</option>
+            <option>IT</option>
+            <option>EEE</option>
+            <option>ECE</option>
+            <option>MECH</option>
+            <option>AERO</option>
+        </select>
+        <br>
+        <br>
+        <label for="address">Address</label>
+        <br>
+        <textarea name="address" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="checkbox" name="agreement" id="">
+        <label for="agreement">Agree Our terms and conditions</label>
+        <br><br>
+        <button>Submit</button>
+       
+
+    </form>
+</body>
+</html>
