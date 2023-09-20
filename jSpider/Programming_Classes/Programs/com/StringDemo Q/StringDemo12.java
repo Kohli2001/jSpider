@@ -1,22 +1,30 @@
-package com;
+import java.util.Scanner;
 
 public class StringDemo12 {
-	public static void main(String[] args) {
-		String s1 = "ab56HJk##KKI";
-		for(int i=0; i<s1.length(); i++) {
-			char c = s1.charAt(i);
-			if(c>='A' && c<='Z') {
-				//captital to small
-				c+=32;	
-			}
-			else if(c>='a' && c<='z'){
-				//samll  to capital
-				c-=32;
-				
-			}
-			System.out.print(c);
-		}
-		
-	}
 
+     //Input a string from the user. Create a new string called ‘result’ in which you will replace the letter ‘e’ in the original string with letter ‘i’. 
+    //Example : 
+    //original = “eabcdef’ ; result = “iabcdif”
+    //Original = “xyz” ; result = “xyz”
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the string");
+        String s = sc.next();
+        String s1 ="";
+
+        s1=s1+s.replace('e', 'i');
+        // for(int j=0; j<s.length(); j++){
+        //     char c = s.charAt(j);
+        //     if(c=='e'){
+        //         j='i';
+        //     }
+        //     s1=s1+c;
+           
+        // }
+         System.out.println(s1);
+
+
+
+    }
+    
 }
