@@ -1,0 +1,17 @@
+#html{
+    background-color: rgb(218, 97, 32);
+    font-size: 30px;
+    color: white;
+
+}
+
+#css{
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+}
+#js{
+    background: yellow;
+    text-align: end;
+    font-size: 30px;
+}
