@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo columns</title>
+    <style>
+        /* a:active{
+            background-color: midnightblue;
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: yellow;
+        } */
+
+        a:hover {
+            background-color: midnightblue;
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: yellow;
+        }
+
+        h1:hover {
+            color: violet;
+            background-color: midnightblue;
+            font-size: 150px;
+        }
+        p::first-line{
+            font-size: 30px;
+            color: blue;
+        }
+        p::first-letter{
+            font-size: 120px;
+        }
+        p::selection{
+            background-color: red;
+            color: white;
+        }
+        /* li::marker{
+            color: red;
+            font-size: 20px;
+        } */
+
+        li::marker{
+            /* content: "*"; */
+            content: "😂👏";
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li>Khana </li>
+        <li>jana </li>
+        <li>sona</li>
+        <li>pdhna </li>
+    </ul>
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero autem accusantium repellat omnis magni et atque
+        neque magnam ipsam doloremque ducimus, molestias facere iure quas minima totam officiis nesciunt dolor. Lorem,
+        ipsum dolor sit amet consectetur adipisicing elit. Doloribus maxime nihil placeat. Maiores temporibus modi, nemo
+        sequi nesciunt odio nobis? Doloribus consectetur accusamus sed molestias deleniti atque esse perferendis itaque!
+    </p> -->
+    <!-- <h1>Hover on Me</h1>
+    <a href="">Link</a> -->
+</body>
+
+</html>
