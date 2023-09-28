@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .box {
+            /* background-color: rgba(0, 0, 0, 0.944); */
+            background-color: rgba(0, 0, 0, 0.801);
+            width: 399px;
+            margin-left: 40%;
+            margin-top: -3%;
+            padding: 40px 0px;
+            border-radius: 5px;
+            font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            
+
+        }
+
+        .form {
+            padding-left: 20px;
+        }
+
+        .heading h1 {
+            margin-left: 42px;
+            padding: 0px 20px 0px 10px;
+            color: white;
+            font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            ;
+        }
+
+        .form input {
+
+            width: 264px;
+            color: #ffffff;
+            height: 45px;
+            padding-left: 20px;
+            margin-left: 30px;
+            margin-top: 30px;
+            border-radius: 5px;
+            background-color: #252525eb;
+            border: none;
+            font-size: 16px;
+        }
+
+        .form input::placeholder {
+            color: #8c8c8c;
+
+        }
+
+        .form button {
+            width: 283px;
+            background-color: red;
+            color: #ffffff;
+            height: 45px;
+            padding-left: 30px;
+            margin-left: 30px;
+            margin-top: 25px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .links {
+            margin-top: 20px;
+            color: rgb(191, 191, 191);
+            margin-left: 52px;
+            font-size: small;
+
+        }
+
+        .links a {
+            color: rgb(191, 191, 191);
+            text-decoration: none;
+            margin-left: 110px;
+            font-size: 12px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            margin-left: 55px;
+            color: #b3a9a9;
+            font-size: 15px;
+            font-weight: 100;
+        }
+
+        .footer a {
+            color: white;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        .footer2 {
+            margin-top: 20px;
+            margin-left: -5px;
+            color: #b3a9a9;
+            font-size: 15px;
+            font-weight: 100;
+            margin-bottom: 80px;
+
+
+        }
+
+        .footer2 a {
+            color: blue;
+        }
+
+        .form input:focus::placeholder {
+            font-size: xx-small;
+            margin-bottom: 80%;
+
+        }
+
+        body {
+            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/b5953637-091d-4e02-9754-2bfadc8a8f7c/IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+            background-color: #000;
+        }
+
+        .logo img {
+            width: 20%;
+            height: 10%;
+            border-bottom: transparent;
+            
+        }
+        .box a:hover{
+            text-decoration: underline;
+        }
+
+    
+
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="netflixLogo.png" alt="">
+    </div>
+    <div class="box">
+
+        <div class="heading">
+
+            <h1>Sign In</h1>
+        </div>
+
+        <div class="form">
+
+            <div class="email">
+                <input type="email" name="" id="" placeholder="Email or Phone Number">
+            </div>
+            <div class="pass">
+                <input type="password" name="" id="" placeholder="Password">
+            </div>
+            <div class="btn">
+                <button>Sign In</button>
+            </div>
+
+        </div>
+        <div class="links">
+            <input type="checkbox">
+            <label for="checkbox">Remember me</label>
+            <a href="">Need help ?</a>
+
+        </div>
+
+        <div class="footer">
+            <p>New to Netflix? <a href="">Sign up now.</a></p>
+            <div class="footer2">
+                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="">Learn more.</a></p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
