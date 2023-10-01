@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+
+    <style>
+        .child{
+            background-color: greenyellow;
+            border: 2px solid black;
+            width: 25%;
+        }
+        .parent{
+            display: flex;
+            /* flex-direction: row-reverse ; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: ; */
+
+/* ================it align the itmes as x-axis===================== */
+            /* justify-content: end; */
+            /* justify-content: start; */
+            /* justify-content: center;     */
+            /* justify-content: space-between; */
+            justify-content: space-evenly;
+            /* justify-content: space-around; */
+
+/* ================it align the itmes as Y-axis===================== */
+            align-items: start;  /*top*/
+            align-items: center; /*center*/
+            align-items: end;    /*bottom*/
+            
+
+            
+        }
+#child1{
+    background-color: midnightblue;
+    color: white;
+}
+    </style>
+</head>
+
+<body>
+
+<div class="parent">
+    <div class="child" id="child1">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est commodi eaque suscipit distinctio ullam
+            aperiam, veritatis earum debitis in molestiae! Exercitationem delectus rerum minima quasi ab rem fugiat,
+            iusto blanditiis fuga culpa consectetur soluta sed itaque. Odit veritatis nemo modi cum et recusandae odio
+            cumque.</p>
+    </div>
+
+    <div class="child" id="child2">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, expedita libero tempore esse nobis
+            assumenda reiciendis reprehenderit saepe ut quas impedit unde perferendis maxime pariatur deserunt ea
+            aperiam porro quos dolor hic id quia laudantium repellendus cupiditate? Voluptates molestiae hic numquam
+            minus. Voluptatibus nobis sit laudantium, praesentium suscipit doloremque, eius illum necessitatibus
+            repudiandae error vitae quia soluta facere id omnis architecto! Reprehenderit voluptate quae, unde quibusdam
+            assumenda rem ducimus exercitationem ipsum suscipit labore sequi, at accusamus corrupti dolorum quidem
+            tempora obcaecati hic blanditiis, esse itaque velit sunt!
+        </p>
+    </div>
+
+    <div class="child" id="child2">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, expedita libero tempore esse nobis
+            assumenda reiciendis reprehenderit saepe ut quas impedit unde perferendis maxime pariatur deserunt ea
+            aperiam porro quos dolor hic id quia laudantium repellendus cupiditate? Voluptates molestiae hic numquam
+            minus. Voluptatibus nobis sit laudantium, praesentium suscipit doloremque, eius illum necessitatibus
+          
+        </p>
+    </div>
+</div>
+</body>
+
+</html>
