@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in or Register</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .box{
+            /* border: 1px solid black; */
+            margin: 97px 20% 0px 27%;
+            padding: 40px;
+            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            width: 35%;
+            
+        }
+        .heading h1{
+            font-weight: 100;
+            color: #065683;
+            padding-bottom: 20px;
+            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 25px;
+            text-shadow: none;
+            font-weight: 400;
+        }
+        .box input{
+            width: 90%;
+            height: 30px;
+            /* height: 20px; */
+        }
+        .email p{
+            font-size: 15px;
+            margin-top: 2px;
+            font-weight: normal;
+            color: rgb(59, 59, 59);
+            padding-bottom: 20px;
+        }
+        .email input::placeholder{
+            padding-left: 15px;
+            font-size: 15px;
+        }
+        .pass a{
+            color: #0075b4;
+            text-decoration: none;
+            /* display: inline-block; */
+            font-size: small;
+        
+        }
+        .option p{
+                width: 20px;
+        }
+        .btn button{
+            border: none;
+            color: white;
+            width: 110px; 
+            margin-top: 20px;  
+            height: 45px;
+            font-size: 19px;
+            background-color: #006341;
+            text-shadow: none;
+            border-radius: 2px;
+            margin-bottom: 70px;
+        }
+        .info h3{
+            text-align: center;
+            margin: 40px 0px;
+            font-weight: bold;
+            font-size: 22px;
+            color: #0e2f24e3;
+            
+        }
+        .create_btn button{
+            width: 77%;
+            height: 60px;
+            border: 2px solid green;
+            border-radius: 4px;
+            margin: 20px 0px 0px 63px;
+            background-color: white;
+            font-size: 20px;
+            color: green;
+        }
+
+        .hr{
+            color: red;
+        }
+        input:focus{
+            padding-left: 10px;
+            border: 1px solid black;
+        }
+        .pass a:hover{
+            text-decoration: underline;
+        }
+        .btn button:hover{
+            background-color: rgb(58, 123, 58);
+        }
+        .create_btn button:hover{
+            border: 2px solid green;
+        }
+        .option input{
+            
+
+        }
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="box">
+        <div class="heading">
+            <h1>Sign in</h1>
+        </div>
+        <div class="email">
+            <div class="label">
+                <label for="email">Email</label>
+            </div>
+            
+            <input type="email" name="" id="" placeholder="username@domain.com">
+            <p>The email address you used to register with SGA</p>
+        </div>
+        <div class="pass">
+            <div class="label">
+                <label for="password">Password</label>
+            </div>
+            <input type="password" name="" id="">
+            <p><a href="">Forgot password?</a></p>
+        </div>
+
+        <div class="option">
+            <input type="checkbox" name="" id="">
+            <span>Remember me</span>
+            
+        </div>
+        <div class="btn">
+            <button>SIGN IN</button>
+        </div>
+        <div class="info">
+            <hr class="hr">
+            <h3>New to Starbucks Global Academy SGA ?</h3>
+            <hr class="hr">
+        </div>
+        <div class="create_btn">
+            <button>Create an Account</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
