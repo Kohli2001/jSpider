@@ -1,0 +1,194 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.hero{
+  background:linear-gradient(rgba(0, 0, 0, 0.405),rgba(0, 0, 0, 0.537)), url('../images/back_coverLogo.webp');
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 20px 0px;
+}
+#advertisebtn{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    font-size: 20px;
+}
+#loginbtn{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: 13px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 6px 15px;
+    margin: 0px 20px;
+}
+#accountbtn{
+    background-color: rgb(39, 129, 231);
+    text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 7px 15px;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.introduction{
+    color: white;
+    /* justify-content: space-around; */
+    /* margin-left: 22%;
+    margin-top: 45px; */
+    
+}
+.title{
+    margin: 15px 0px;
+}
+
+.title h1{
+    font-size: 34px;
+    padding-top: 10px;
+    
+}
+
+.desc p{
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.btn button{
+    background-color: rgb(39, 129, 231);
+    width: 390px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+
+}
+#bt2{
+    background-color: white;
+    color: black;
+    font-weight: 100;
+    margin-left: 10px;
+
+}
+.help p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.desc p{
+    margin-left: 10px;
+
+}
+#bt1:hover{
+    background-color: rgb(8, 107, 221);
+}
+#accountbtn:hover{
+    background-color: rgb(8, 107, 221);
+}
+
+.checkBox{
+    border: 2px solid red;
+    text-align: center;
+    width: 45%;
+    height: 100px;
+    margin-left: 28%;
+
+
+}
+.online-order-container{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(246, 242, 242);
+    padding-bottom: 30px;
+}
+.online-orders{
+    background-color: white;
+    padding: 40px;
+    transform: translateY(-20px);
+    border-radius: 10px;
+    width: 40%;
+
+}
+.order-title{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.722);
+}
+.order-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.order-list li::marker{
+    content: '✅';
+}
+
+.list2 , .list2{
+    margin-left: 80px;
+}
+.list1 li, .list2 li{
+    margin: 12px;
+}
+.partnerIntro{
+    text-align: center;
+
+}
+.partnerIntro p{
+    padding: 30px 421px 0px 418px;
+    font-size: 16px;
+}
+.partnerIntro h1{
+    padding-top: 26px;
+}
+.partnerInfo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 80px;
+}
+.partnerInfodiv{
+        display: flex;
+        margin: 0px 15px;
+        box-shadow: 2px 4px 15px rgba(191, 188, 188, 0.445);
+        padding: 12px 0px;
+        border-radius: 10px;
+        width: 200px;
+        justify-content: space-evenly;
+}
+#p1{
+    color: blue;
+}
+#p2{
+    color: rgba(0, 0, 0, 0.6);
+}
+.intructions{
+   background-image: url("../images/instructionBckgrnd.avif");
+    background-position: center;
+    background-size: cover ;
+    height: 40vh;
+    background-color: rgb(254, 252, 252);
+}
+.intructionsTitle{
+    text-align: center;
+    padding: 60px 0px;
+}
+.steps{
+    display: flex;
+    justify-content: center;
+}
+.stepDiv{
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0px 12px;
+    width: 200px;
+}
