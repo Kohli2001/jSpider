@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: AudiType,sans-serif;
+    /* font-family:'AudiType'; */
+   
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    background-color: white;
+  
+    align-items: center;
+    
+    padding: 0px;
+}
+.nav{
+    margin: 0px 10px;
+    color: black;
+
+}
+.links a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color:rgba(0, 0, 0, 0.571);
+    
+  }
+  .links a:hover{
+    color:black;
+  }
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.menu p{
+    font-size: 16px;
+    padding-left: 10px;
+    color: black;
+}
+.hero{
+    background:  url(../Image/backgrodimg.png);
+    background-position: center;
+    background-size: cover;
+    height: 91.1vh;
+    color: white;
+}
+.content{
+    padding: 30px 0px 0px 50px;
+}
+.mainContent h3{
+    font-size: 42px;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+.subContent{
+    font-size: 18px;
+    width: 720px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 18px 0px 36px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.button a{
+    border: 1px solid white;
+    padding: 16px 32px;
+    text-decoration: none;
+    color: white;
+}
+#buttonq8{
+    color: black;
+    background-color: white;
+}
+.button a:hover{
+    border: 1px solid #b3b3b3;
+    color: #b3b3b3;
+}
+#FirstButton:hover{
+    background-color: #b3b3b3;
+}
+.instruction{
+    background-position: center;
+    background-color: white;
+  }
+.instruction p{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+  .instrutiontitle{
+  text-align: center;
+  padding: 40px 0px;
+  
+  
+  }
+  .steps{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .stepDiv{
+    text-align: center;
+    border-radius: 8px;
+    margin: 1px 10px;
+    width: 250px;
+    height: 30px;
+    padding:12px 14px;
+  
+  }
+.secondCover{
+    display: flex;
+    align-items: center;
+    padding: 48px 40px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.sc{
+    padding: 36px;
+}
+.scContent{
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+}
+.scButton a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 15px 57px;
+}
+.lastCover{
+    background-image: url(../Image/E-tronHub.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 170vh;
+}
+.lastcolumn{
+    position: relative;
+    top: 290px;
+    background-color: white;
+    width: 670px;
+    height: 220px;
+    margin: 40px;
+    padding: 36px;
+}
+.lastcolumn h2{
+    font-size: 24px;
+    margin-bottom: 24px;
+    /* word-spacing: 5px; */
+    font-weight: 700;
+
+}
+.lastcolumn p{
+    color: rgba(0, 0, 0, 0.643);
+    font-size: 18px;
+    margin: 24px 0px 56px 0px;
+}
+.last-buttons a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 16px 32px;
+    color: black;
+}
+.last-buttons a:hover{
+    border: 1px solid #b3b3b3;
+    color: #898888;
+}
+#etron{
+    background-color: black;
+    color: white;
+}
+#etron:hover{
+    background-color: rgba(0, 0, 0, 0.623);
+}
