@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navContainer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    
+    /* padding: 40px 20px; */
+}
+
+.logo a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+.navLogo {
+    margin-right: 35%;
+}
+
+.acIncon button {
+    border: none;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+
+.headings {
+    background-color: rgba(23, 23, 23, 0.926);
+    color: white;
+    display: flex;
+    padding: 14px;
+}
+
+.headText {
+    margin: auto 15px auto 14px;
+    font-family: "National 2 Condensed";
+    font-weight: 700;
+    text-align: center;
+    margin-left: 33%;
+}
+
+.headings button {
+    padding: 12px;
+    background-color: rgb(222, 43, 43);
+    color: white;
+    font-size: 15px;
+    border-radius: 23px;
+    width: 160px;
+    height: 45px;
+    border: none;
+    text-align: center;
+}
+
+.kfcMenu {
+    margin-left: 11%;
+    position: fixed;
+}
+
+.menu h1 {
+    margin: 20px 0px;
+    font-family: 'Fjalla One', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00000089;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 45px;
+}
+/* .line hr{
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 100px;
+} */
+
+.foods {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    padding-left: 180px;
+}
+
+.foods .item {
+    background-color: #f8f7f5;
+    border-radius: 8px;
+    width: 400px;
+    padding: 20px;
+}
+
+.foods .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.foods .item h5 {
+    font-size: 18px;
+}
+
+.foods .item p {
+    color: #888;
+}
+
+.foods .item button {
+    margin-top: 40px;
+    background-color: #de0c0c;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+.item {
+    width: 240px;
+    height: 240px;
+    margin: 40px;
+}
+.itemList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 90px;
+    padding-left: 180px; */
+}
+.item img{
+    width: 267px;
+    height: 246px;
+    border-radius: 8px;
+}
+.item button {
+    margin-top: 40px;
+    background-color: #de0c0c;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
