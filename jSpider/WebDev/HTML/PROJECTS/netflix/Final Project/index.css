@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148639325.jpg');
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 0px;
+    font-size: 30px;
+}
+
+.Temp {
+    display: flex;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.week {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    padding: 10px;
+
+    /* text-align: center; */
+}
+
+.tmwr {
+    border: 1px solid green;
+    background-color: rgba(67, 136, 40, 0.763);
+    color: white;
+    height: 370px;
+    width: 200px;
+    /* border-radius: 10px; */
+}
+
+.info {
+    padding-top: 110px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.searchbox input {
+    width: 320px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+button {
+    width: 180px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    background-color: rgba(87, 46, 248, 0.83);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.city h1 {
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.country h1{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.degree h1 {
+    font-size: 55px;
+}
