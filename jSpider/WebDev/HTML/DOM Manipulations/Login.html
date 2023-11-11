@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .login_container{
+            margin-top: 10%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .login input{
+            width: 450px;
+            margin-top: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .login button{
+            background-color: green;
+            color: white;
+            width: 489px;
+            margin-top: 9px;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .img{
+            /* background-image: url(''); */
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            margin-top: 10px;
+            color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>.....Login Credential....</h1>
+    <div class="login_container">
+        <div class="login">
+            <div class="email">
+                <input type="email" name="" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="password">
+                <input type="password" name="" id="password" placeholder="Enter your password">
+            </div>
+            <div class="btn">
+                <button id="btn" onclick="login()">Login</button>
+            </div>
+        </div>
+
+        <div class="img">
+            <img src="https://account.asus.com/img/login_img02.png" alt="">
+        </div>
+    </div>
+
+    <script src="Login.js"></script>
+</body>
+</html>
