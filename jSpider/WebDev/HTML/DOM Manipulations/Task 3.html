@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+
+    <style>
+        .box{
+            text-align: center;
+           
+        }
+        #btn1{
+            background: green;
+            padding: 15px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 20px;
+
+        }
+        #btn2{
+            background: rgb(241, 71, 71);
+            padding: 15px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+        #btn3{
+            background: #000;
+            padding: 15px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+        .box h1{
+            font-weight: bold;
+            font-size: 200px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Assignmnet : Display a number zero as heading below that there must be three buttons increase decrease and reset -->
+
+    <h1 style="text-align: center;">Game</h1>
+
+    <div class="box">
+
+        <h1 id="result">0</h1>
+        <button id="btn1" onclick="increament()">Increase</button>
+        <button id="btn2" onclick="decreament()">Decrease</button>
+        <button id="btn3" onclick="resset()">Reset</button>
+
+
+    </div>
+    <script src="Task3.js"></script>
+</body>
+
+</html>
