@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('./Images/BMI-Calculator\ bg.png');
+    background-size: cover;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+   
+}
+.scorecard{
+    text-align: center;
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
+.contents{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    margin: 30px;
+}
+.contents input{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    color: black;
+    border: 2px solid blue;
+}
+.contents h2{
+    color: rgb(43, 61, 226);
+    text-align: center;
+    font-weight: bold;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    /* background-color: rgb(74, 54, 255) */
+    background: rgb(38,169,223);
+    background: linear-gradient(0deg, rgb(44, 38, 223) 0%, rgb(11, 32, 219) 33%, rgb(11, 220, 11) 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid rosybrown;
+}

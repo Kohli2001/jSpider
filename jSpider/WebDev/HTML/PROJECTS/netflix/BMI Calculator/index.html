@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- headings -->
+        <div class="logo">
+            <img height="50px" width="70px" src="./Images/Meter-icons.png" alt="">
+
+        </div>
+        <p style="text-align: center; color: blue;"><b>Calculator</b></p>
+
+
+        <!-- score Card -->
+        <div class="scorecard">
+            <h1 style="color: blueviolet;">BMI SCORE</h1>
+            <h1 id="result">0</h1>
+            <h1 id="status">Weight</h1>
+
+        </div>
+        <!-- complete forms -->
+        <div class="contents">
+            <div class="gender">
+                <h2>Gender</h2>
+                <input type="text" id="gender" placeholder="Gender">
+            </div>
+            <div class="age">
+                <h2>Age</h2>
+                <input type="number" max="110" id="age" placeholder="Age">
+            </div>
+            <div class="height">
+                <h2>Height in CM</h2>
+                <input type="number" placeholder="Height in CM" id="height">
+            </div>
+            <div class="weight">
+                <h2>Weight in Kg</h2>
+                <input type="number" id="weight" placeholder="Weight in Kg">
+            </div>
+        </div>
+        
+        <!-- footrs buttons -->
+
+        <div class="btn">
+            <button onclick="calculate()">CALCULATE</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
