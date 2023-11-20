@@ -1,0 +1,50 @@
+infix:-->operator in between operands  
+	e.g--->    a+b
+post-fix:-->operator after operands  
+	e.g--->   ab+
+prefix:-->operator before operands 
+	e.g---->  +ab
+	
+Usable symbol:---> +,-,*, /, ^, ),(
+
+	priority:>> 1)brackets
+				2)power ^
+				3)* , /
+				4)+, -
+				
+	###Rules for stack operation for conversion of infix to post-fix
+	1)Always the above operator in the stack should be having higher priority than below operator 
+	if not then , we need to pop the below operator until we justify the rule.
+	
+	2)if we found any close brackets "(" we need to pop until any open brackets ")" found
+	
+	3)The stack contains only operator and brackets
+	  
+	  Example::
+	  infix: (a+b)-a*b
+	  char 				stack			post-fix ex..
+	  '('				(			
+	  a										a
+	  +					(,+					a
+	  b										ab
+	')'->pop until (	(,+					ab+
+	  - 				-					
+	  a					-					ab+a
+	  *					-,*					ab+a
+	  b					-,*					ab+ab * -
+	  
+	  Example 2: 
+	  infix: A+B*C+D
+	  infix: A*B^C+D*K-J --->ans> abc^*dk*+j-
+	  
+	  char 				post-fix					stack
+	  a						a							
+	  *						a							
+	  b						ab*
+	  ^
+	  c						
+	  +
+	  
+	  
+	  	
+	
