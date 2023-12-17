@@ -1,0 +1,39 @@
+.addbooks{
+    background-color: white;
+    /* border: 1px solid red; */
+    height: 70vh;
+    width: 500px;
+    position: relative;
+    left: 40%;
+    top: 10px;
+    text-align: start;
+    border-radius: 20px;
+
+}
+.addbooks input{
+    height: 30px;
+    width: 200px;
+    margin: 20px;
+    justify-items: center;
+  
+}
+.addbooks label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.addbooks button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+    position: relative;
+    left: 35%;
+}
+.addbooks textarea{
+    justify-items: center;
+}
