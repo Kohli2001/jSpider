@@ -1,0 +1,33 @@
+.section1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(10, 206, 141);
+    height: 200px;
+    width: 500px;
+    position: relative;
+    left: 540px;
+    margin-top: 120px;
+    text-align: center;
+    
+}
+.landingpage img{
+    height: 200px;
+    width: 200px;
+
+}
+.section1 a:hover{
+    color: green;
+}
+.section1 a{
+    font-size: 10px;
+    text-decoration: none;
+}
+.heading{
+    margin-top: 20px;
+    color: blue;
+    text-align: center;
+}
+body{
+    background-image: url('./jaredd-craig-HH4WBGNyltc-unsplash.jpg');
+    background-size: cover;
+}
