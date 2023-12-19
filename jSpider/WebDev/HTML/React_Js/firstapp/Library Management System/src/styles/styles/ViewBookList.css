@@ -29,9 +29,19 @@
 #del{
     height: 50px;
     width: 60px;
+    /* transform: translateY(20px); */
+
 }
 .viewbooklist h1{
     position: sticky;
     top: 35px;
 }
+#readicon{
+    background-color: green;
 
+}
+#edit{
+    /* transform: translate(20px); */
+    background-color: red;
+
+}
