@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+            
+            <!-- Constructor injcetion by nested bean-->
+            <bean id="myGpay" class="org.jsp.springdemo.Gpay">
+           	
+           	<constructor-arg name="bank" >
+           	
+           	<bean class="org.jsp.springdemo.BankAccount">
+           	<property name="balance" value="560000"></property>
+           	</bean>
+           	</constructor-arg>
+			
+			</bean>
+			
+			<!-- Constructor injcetion by ref attributes -->
+			
+			<bean id="icici" class="org.jsp.springdemo.BankAccount">
+			<property name="balance" value="30000"></property>
+			
+			</bean>
+			
+			<bean id="urGpay" class="org.jsp.springdemo.Gpay">
+			<constructor-arg name="bank" ref="icici" />
+			</bean>
+            
+</beans>
