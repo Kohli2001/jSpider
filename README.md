@@ -1,7 +1,9 @@
 # jSpider
 
 It contains all the Jspider class programming during teaching session to practice session and from Basic to Advanced programs of Java
-Following are the Subjcets they Teaching in # Jspider
+
+
+# Following are the Subjcets they Teaching in Jspider
 # 1.Core Java
 # 2.Advanced Java(Collections & Libraries)
 # 3.SQL
