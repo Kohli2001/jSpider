@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 0px 40px  0px 40px;
+    /* background-color: grey; */
+    background-image: url('https://www.shutterstock.com/image-photo/nature-green-grass-texture-background-260nw-491217433.jpg');
+    background-size: cover;
+    
+}
+.heading{
+
+    text-align: center;
+    color:rgb(232, 164, 17);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.resultcard{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.resultcard img{
+    margin-top: 20px;
+}
